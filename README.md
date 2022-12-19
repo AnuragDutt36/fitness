@@ -1,3 +1,3 @@
 # fitness
-It is my first web Page.
-I used here HMTL and CSS.
+It is 1st Project of my web development journey. 
+Here I used HTML and CSS.
