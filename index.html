@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dutt Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png"
+    href="file:///E:/OneDrive/WEB%20DEVELOPMENT%20CODE/Web%20development%20By%20Harry%20Bhaiya/26_Project-1/img/dumballimage.jpg">
+<style>
+    /* CSS RESET */
+    body {
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        font-family: 'Kanit', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/abs-g40933c48b_1920.jpg');
+    }
+
+    .left {
+        position: absolute;
+        left: 41px;
+        top: 2px;
+        display: inline-block;
+        /* border: 1px solid red; */
+    }
+
+    .left img {
+        width: 49px;
+        filter: invert(100%);
+        border: 1px;
+
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 10px;
+        font-family: fantasy;
+        color: grey;
+        line-height: 3px;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 5px 315px;
+        /* border: 1px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 21px;
+        display: inline-block;
+        /* border: 1px solid yellow; */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 14px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 31px 11px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        font-family: 'Kanit', sans-serif;
+        margin: 0px 2px;
+        color: white;
+        background-color: black;
+        padding: 4px 9px;
+        border: 2px solid grey;
+        border-radius: 20px;
+        font-size: 10px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(160, 160, 160);
+    }
+
+    .container {
+        border: 1px solid white;
+        margin: 51px 31px;
+        padding: 54px;
+        width: 32%;
+        border-radius: 39px;
+        font-size: 10px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 284px;
+        padding: 3px;
+        border: 2px solid black;
+        margin: 6px auto;
+        font-size: 12px;
+        border-radius: 7px;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 98%;
+        margin: 15px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/dumballimage.jpg" alt="">
+            <div>
+                Dutt Fitness
+            </div>
+        </div>
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button><button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Bihar Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+
+</html>
