@@ -5,7 +5,8 @@ This is a template for a fitness-related website. The template provides a basic 
 ## Features
 
 - Home page
-- Fill details
+- User-friendly
+- Input fields for name, age, gender, locality, phone number, address
 - Hover effect
 
 
@@ -24,7 +25,6 @@ To get started with the template, follow these steps:
 - HTML
 - CSS
 
-## License
 
 No license
 
