@@ -9,7 +9,6 @@ This is a template for a fitness-related website. The template provides a basic 
 - Input fields for name, age, gender, locality, phone number, address
 - Hover effect
 
-
 ## Getting Started
 
 To get started with the template, follow these steps:
@@ -24,10 +23,3 @@ To get started with the template, follow these steps:
 
 - HTML
 - CSS
-
-
-No license
-
-
-
-
