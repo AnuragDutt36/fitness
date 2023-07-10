@@ -2,6 +2,10 @@
 
 This is a template for a fitness-related website. The template provides a basic structure and layout that can be customized and expanded to create a full-fledged fitness website.
 
+## Preview
+
+![Calculator Preview](/img/screenshot.png)
+
 ## Features
 
 - Home page
