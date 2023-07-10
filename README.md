@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Fitness Website Template
 
 This is a template for a fitness-related website. The template provides a basic structure and layout that can be customized and expanded to create a full-fledged fitness website.
@@ -28,8 +27,7 @@ To get started with the template, follow these steps:
 
 - HTML
 - CSS
-=======
+
 # fitness
 It is 1st Project of my web development journey. 
 Here I used HTML and CSS.
->>>>>>> 1340400 (Adding preview)
